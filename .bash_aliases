@@ -36,6 +36,8 @@ alias ldh='cd /home/ubuntu/workspace/local-dev-hadoop'
 alias rmcontainers='docker rm -v $(docker ps -a -q -f status=exited)'
 alias killcontainers='docker kill $(docker ps -q)'
 alias dlf='docker logs -f $@'
+alias chlogs='sudo rm -rf /home/ubuntu/workspace/datasets-service/.logs/master'
+alias tmongo='docker exec -it $(docker ps -aqf name=datasetsservice_testmongo_1) mongo admin -u admin -p password'
 
 ccontainers(){
   killcontainers
