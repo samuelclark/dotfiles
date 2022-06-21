@@ -18,7 +18,7 @@ jmespath==0.9.3
 macholib==1.8
 matplotlib==2.1.0
 mccabe==0.5.3
-numpy==1.13.3
+numpy==1.22.0
 pandas==0.20.3
 pefile==2017.9.3
 pkginfo==1.4.1
